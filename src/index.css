@@ -1,0 +1,86 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  background-color: cornflowerblue;
+  padding: 20px;
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+  border-radius: 28px 0 28px 0;
+}
+.card-ctr {
+  padding: 5px 10px;
+  width: 300px;
+  margin: 15px auto;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 18px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.submit-btn {
+  border-radius: 5px;
+  background-color: #fff;
+  color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 600;
+  align-item: centerl;
+  cursor: default;
+}
+
+.navbar {
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+}
+
+.ctr {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 15px;
+}
+
+.title {
+  color: cornflowerblue;
+  font-size: 30px;
+}
+
+.message {
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 38px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.error {
+  color: red;
+}
+
+svg {
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.intro,
+.intro h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
